@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg">
+    <div class="container">
+      <header>
+        <h1>QUIZ JS 💞</h1>
+        <p>Do you know JS? Find out!🧐</p>
+        <div id="score">
+          Score: <span id="correct">0</span> / <span id="completed">0</span>
+        </div>
+
+      </header>
+
+      <main>
+        <div id="statement"></div>
+
+        <div id="options">
+          <button id="option-button" name="true" value="true">true</button>
+          <button id="option-button" name="false" value="false">false</button>
+        </div>
+
+        <div id="explanation" class="hidden"></div>
+        <button id="next-question" name="next-question">Next Question ▶▶</button>
+      </main>
+    </div>
+
+    <script src="./quiz.js"></script>
+</body>
+
+
+</html>
